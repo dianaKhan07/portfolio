@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+}
+.header {
+    height: 80px;
+    border-bottom: 1px solid #878787;
+}
+.header a {
+    font-size: 18px;
+    line-height: 22px;  
+    color: #828282;
+    text-decoration: none;
+}
+.header a:first-child {
+    color: #070707;
+    font-weight: bold;
+}
+
+.lang {
+    transform: rotate(-90deg);
+    margin: 0;
+}
+.aboutMe {
+    background-color: #F6F6F6;
+}
+.skillBlock {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.porten {
+    padding-bottom: 200px;
+}
+.rooms {
+    padding-bottom: 200px;
+}
+.zapper {
+    padding-bottom: 60px;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 100px;
+}
+.footer2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 50px;
+}
+.ContactsImg {
+    display: flex;
+    gap: 30px;
+}
+.footer2 p {
+    color: #828282;
+    font-size: 14px;
+}
